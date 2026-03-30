@@ -33,7 +33,7 @@ Its entry point is the `incus` command.
 ## Note
 - incus version : Check the [incus-version.txt](./incus-version.txt) file.
 - Date of extraction : Check the [extraction-date.txt](./extraction-date.txt) file.
-- The content of the [incus](./incus) folder was extracted automatically from the CLI.
+- The content of the [doc/incus](./doc/incus) folder was extracted automatically from the CLI.
 - Generation scripts found in the [scripts](./scripts) folder. The complete extraction cycle is controlled by [scripts/refresh.sh](./scripts/refresh.sh)
 - *.md files were generated manually.
 
