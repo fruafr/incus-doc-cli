@@ -1,33 +1,29 @@
 Description:
-  List all the cluster members
+  List all active cluster member join tokens
 
-  	The -c option takes a (optionally comma-separated) list of arguments
-  	that control which image attributes to output when displaying in table
-  	or csv format.
+  Default column layout: nte
 
-  	Default column layout is: nurafdsm
+  == Columns ==
+  The -c option takes a comma separated list of arguments that control
+  which network zone attributes to output when displaying in table or csv
+  format.
 
-  	Column shorthand chars:
+  Column arguments are either pre-defined shorthand chars (see below),
+  or (extended) config keys.
 
-      n - Server name
-      u - URL
-      r - Roles
-      a - Architecture
-      f - Failure Domain
-      d - Description
-      s - Status
-      m - Message
+  Commas between consecutive shorthand chars are optional.
+
+  Pre-defined column shorthand chars:
+    n - Name
+    t - Token
+    E - Expires At
 
 Usage:
-  incus cluster list [<remote>:] [flags]
-
-Aliases:
-  list, ls
+  incus cluster list-tokens [<remote>:] [flags]
 
 Flags:
-      --all-projects   Display clusters from all projects
-  -c, --columns        Columns (default "nurafdsm")
-  -f, --format         Format (csv|json|table|yaml|compact), use suffix ",noheader" to disable headers and ",header" to enable it if missing, e.g. csv,header (default "table")
+  -c, --columns   Columns (default "ntE")
+  -f, --format    Format (csv|json|table|yaml|compact), use suffix ",noheader" to disable headers and ",header" to enable if demanded, e.g. csv,header (default "table")
 
 Global Flags:
       --debug          Show all debug messages
