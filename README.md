@@ -1,6 +1,6 @@
 # fruafr/incus-doc-cli - INCUS - CLI - Help
 
-[Incus](https://linuxcontainers.org/incus/docs/main/) CLI help documentation
+[Incus](https://linuxcontainers.org/incus/docs/main/) CLI documentation from `incus --help`
 
 ## Introduction
 
