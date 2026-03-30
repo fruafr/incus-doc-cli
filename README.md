@@ -1,6 +1,8 @@
 # fruafr/incus-doc-cli - INCUS - CLI - Help
 
-[Incus](https://linuxcontainers.org/incus/docs/main/) CLI documentation extracted from `incus --help`
+[Incus](https://linuxcontainers.org/incus/docs/main/) CLI documentation extracted from `incus --help` with a combined file ready for AI consumption.
+
+The combined file is [incus-doc-cli.txt](./incus-doc-cli.txt).
 
 ## Introduction
 
@@ -37,6 +39,7 @@ Its entry point is the [`incus` command](./doc/incus.md).
 - The content of the [doc/incus](./doc/incus) folder was extracted automatically from the CLI.
 - Generation scripts found in the [scripts](./scripts) folder. The complete extraction cycle is controlled by [scripts/refresh.sh](./scripts/refresh.sh)
 - *.md files were generated manually.
+- The combined file combines the extracted files and the manually created files.
 
 ## License
 - [License](./LICENSE) : Released under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0) as derivative work of [incus](https://linuxcontainers.org/incus/introduction/).
