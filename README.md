@@ -17,11 +17,12 @@ It scales from one instance on a single machine to a cluster in a full data cent
 
 Incus allows you to easily set up a system that feels like a small private cloud. You can run any type of workload in an efficient way while keeping your resources optimized.
 
-Its entry point is the `incus` command.
+Its entry point is the [`incus` command](./doc/incus.md).
 
 ## Documentation
 
 - The [doc](./doc) folder of this repo contains a copy of the official `incus` command help for commands and subcommands.
+- The top level is the [`incus` command](./doc/incus.md).
 
 ## Official sources of documentation
 - [Incus - Documentation (on linuxcontainers)](https://linuxcontainers.org/incus/doc/main)
