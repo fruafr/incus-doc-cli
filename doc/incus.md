@@ -40,4 +40,4 @@ Below is the documentation of commands and sub-commands per the official command
 - [`incus storage`](./storage.md)
 - [`incus top`](./incus/top.txt)
 - [`incus version`](./incus/version.txt)
-- [`incus webui`](./incus/webui.txt)]
+- [`incus webui`](./incus/webui.txt)
