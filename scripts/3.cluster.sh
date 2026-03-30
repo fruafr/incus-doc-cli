@@ -17,6 +17,6 @@ incus cluster revoke-token --help > ./incus/cluster/revoken-token.txt
 incus cluster role --help > ./incus/cluster/role.txt
 incus cluster set --help > ./incus/cluster/set.txt
 incus cluster show --help > ./incus/cluster/show.txt
-incus cluster update-certificate --help > ./incus/cluster/update-certificate
+incus cluster update-certificate --help > ./incus/cluster/update-certificate.txt
 
 
